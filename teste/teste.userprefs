@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\SlenderBehaviour.cs">
+    <Files>
+      <File FileName="Assets\script\PlayerBehaviour.cs" Line="48" Column="13" />
+      <File FileName="Assets\script\ObjectiveObjectBehaviour.cs" Line="25" Column="35" />
+      <File FileName="Assets\script\SlenderBehaviour.cs" Line="49" Column="6" />
+      <File FileName="Assets\script\GameController.cs" Line="14" Column="12" />
+      <File FileName="Assets\script\MainMenuController.cs" Line="37" Column="3" />
+      <File FileName="Assets\script\EndGameLoseController.cs" Line="22" Column="31" />
+      <File FileName="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
