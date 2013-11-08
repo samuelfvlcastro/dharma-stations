@@ -32,6 +32,13 @@ public class PlayerBehaviour : MonoBehaviour {
 				{
 					hitInteract.collider.GetComponent<ObjectiveObjectBehaviour>().Interact();
 				}
+				
+				if(hitInteract.collider.tag == "sonic")
+				{
+					hitInteract.collider.GetComponent<ObjectiveObjectBehaviour>().barreira();
+				}
+				
+				
 			}
 		
 		}
@@ -61,6 +68,6 @@ public class PlayerBehaviour : MonoBehaviour {
 		
 		private void die()
 		{
-			Application.LoadLevel("fim");
+			Application.LoadLevel("final");
 		}
 }

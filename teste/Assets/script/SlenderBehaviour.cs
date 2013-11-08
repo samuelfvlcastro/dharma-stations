@@ -57,6 +57,7 @@ public class SlenderBehaviour : MonoBehaviour {
 			Spawn();
 		}
 		
+		
 		distancePlayer=Vector3.Distance(transform.position, player.transform.position);
 		
 		
@@ -66,10 +67,12 @@ public class SlenderBehaviour : MonoBehaviour {
 			player.scare += currentScareFactory/distancePlayer;
 		}
 		
+		
+		
 		//calculo do dano
 		if(gameController.totalObjectivesOk>0)
 		{
-			
+			//exemplo: radius para spawn 30, 30-(30/5*1)=24 e maior que o minimo de radio para spawm
 			currentRadieusToSpawn = radiusToSpawn -(radiusToSpawn/gameController.GetTotalObjective()*gameController.totalObjectivesOk);
 			
 			if(currentRadieusToSpawn<minumusRadius)

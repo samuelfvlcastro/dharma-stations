@@ -19,7 +19,7 @@ public class EndGameLoseController : MonoBehaviour {
 			if(GUILayout.Button("Try Again")) Application.LoadLevel("cena");
 			if(GUILayout.Button("Exit to Menu"))
 		{
-			Application.LoadLevel("menu");
+			Application.LoadLevel("inicio");
 		}
 			GUILayout.EndArea();
 	}
