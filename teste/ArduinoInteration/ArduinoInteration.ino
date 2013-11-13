@@ -25,6 +25,7 @@ void loop()
 { 
   if (Serial.available())
   {
+ 
     int trigger = Serial.parseInt();
     Serial.println(trigger);
     if(trigger == 1)
@@ -45,13 +46,21 @@ void loop()
     } 
     else if(trigger == 5)
     {
+      setColor(0,0,0);
+      setFan(0);
     } 
     else if (trigger >= 100 && trigger <= 255)
     {
-      analogWrite(motorPin, trigger);
+      setFan(trigger);
     }
   }
+  delay(100);
 } 
+
+void setFan(int volt)
+{
+  analogWrite(motorPin, volt);
+}
 
 void setColor(int red, int green, int blue)
 {
