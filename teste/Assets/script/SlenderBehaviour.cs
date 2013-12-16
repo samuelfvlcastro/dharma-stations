@@ -62,16 +62,24 @@ public class SlenderBehaviour : MonoBehaviour {
 		
 		
 		distancePlayer=Vector3.Distance(transform.position, player.transform.position);
-		if(distancePlayer <= 50)
-		{
-			arduino.sendLightningStrike();
-		}
 		
-		if(distancePlayer< distanceToAfect && meshSlender.isVisible)
+		
+		
+		
+		
+		
+		
+		
+		if(distancePlayer < distanceToAfect && meshSlender.isVisible)
 		{
 			//dano
 			player.scare += currentScareFactory/distancePlayer;
+			arduino.sendLightningStrike();
 		}
+		
+		
+		
+		
 		
 		
 		
