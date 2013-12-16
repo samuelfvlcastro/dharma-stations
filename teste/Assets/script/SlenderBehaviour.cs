@@ -14,6 +14,7 @@ public class SlenderBehaviour : MonoBehaviour {
 	public float scareFactory=0.01f;
 	private float currentScareFactory;
 	public float distancePlayer;
+	public float distancePlayer_arduino;
 	public float distanceToAfect;
 	
 	public float timeToSpawn;
@@ -63,10 +64,12 @@ public class SlenderBehaviour : MonoBehaviour {
 		
 		distancePlayer=Vector3.Distance(transform.position, player.transform.position);
 		
+		distancePlayer_arduino=Vector3.Distance(transform.position, player.transform.position);
 		
 		
 		
 		
+		/*
 		
 		
 		
@@ -76,6 +79,41 @@ public class SlenderBehaviour : MonoBehaviour {
 			player.scare += currentScareFactory/distancePlayer;
 			arduino.sendLightningStrike();
 		}
+		
+		*/
+		
+		
+		/*
+		
+		if(distancePlayer < 20 || distancePlayer < 10 && meshSlender.isVisible)
+		{
+			arduino.sendLightningStrike();
+			player.scare += currentScareFactory/distancePlayer;
+		}
+		
+		*/
+		if(distancePlayer < distanceToAfect && meshSlender.isVisible)
+		{
+			//dano
+			player.scare += currentScareFactory/distancePlayer;
+		}
+		if(distancePlayer_arduino < 20)
+		{
+			arduino.sendLightningStrike();			
+		}   
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
