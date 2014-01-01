@@ -150,6 +150,35 @@ ModelImporter:
     4300052: pCylinder8
     4300054: pCylinder9
     4300056: pPipe1
+    6400000: pCube1
+    6400002: pCube10
+    6400004: pCube11
+    6400006: pCube12
+    6400008: pCube13
+    6400010: pCube14
+    6400012: pCube15
+    6400014: pCube16
+    6400016: pCube17
+    6400018: pCube18
+    6400020: pCube19
+    6400022: pCube20
+    6400024: pCube21
+    6400026: pCube22
+    6400028: pCube23
+    6400030: pCube7
+    6400032: pCube8
+    6400034: pCube9
+    6400036: pCylinder1
+    6400038: pCylinder2
+    6400040: pCylinder3
+    6400042: pCylinder4
+    6400044: pCylinder5
+    6400046: pCylinder6
+    6400048: pCylinder7
+    6400050: pCylinder8
+    6400052: pCylinder9
+    6400054: polySurface1
+    6400056: pPipe1
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -169,7 +198,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

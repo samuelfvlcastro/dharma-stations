@@ -30,6 +30,11 @@ ModelImporter:
     4300004: pasted__pCube651
     4300006: pasted__pCube662
     4300008: pasted__pCube663
+    6400000: pasted__pCube649
+    6400002: pasted__pCube650
+    6400004: pasted__pCube651
+    6400006: pasted__pCube662
+    6400008: pasted__pCube663
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -49,7 +54,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

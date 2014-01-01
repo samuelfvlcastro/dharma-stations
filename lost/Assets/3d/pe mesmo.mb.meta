@@ -55,6 +55,16 @@ ModelImporter:
     4300014: pCube1
     4300016: pCube2
     4300018: pCube3
+    6400000: pCube1
+    6400002: pCube2
+    6400004: pCube3
+    6400006: subdivCube1
+    6400008: subdivCube10
+    6400010: subdivCube2
+    6400012: subdivCube4
+    6400014: subdivCube5
+    6400016: subdivCube6
+    6400018: subdivCube7
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -74,7 +84,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

@@ -200,6 +200,45 @@ ModelImporter:
     4300072: pCube37
     4300074: pCube38
     4300076: pCylinder1
+    6400000: pCube1
+    6400002: pCube10
+    6400004: pCube11
+    6400006: pCube12
+    6400008: pCube13
+    6400010: pCube14
+    6400012: pCube15
+    6400014: pCube16
+    6400016: pCube17
+    6400018: pCube18
+    6400020: pCube19
+    6400022: pCube2
+    6400024: pCube20
+    6400026: pCube21
+    6400028: pCube22
+    6400030: pCube23
+    6400032: pCube24
+    6400034: pCube25
+    6400036: pCube26
+    6400038: pCube27
+    6400040: pCube28
+    6400042: pCube29
+    6400044: pCube3
+    6400046: pCube30
+    6400048: pCube31
+    6400050: pCube32
+    6400052: pCube33
+    6400054: pCube34
+    6400056: pCube35
+    6400058: pCube36
+    6400060: pCube37
+    6400062: pCube38
+    6400064: pCube4
+    6400066: pCube5
+    6400068: pCube6
+    6400070: pCube7
+    6400072: pCube8
+    6400074: pCube9
+    6400076: pCylinder1
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -219,7 +258,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
