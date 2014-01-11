@@ -15,15 +15,14 @@ public class play : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		if(Input.GetMouseButton(0))
+		if(Input.GetKeyDown(KeyCode.JoystickButton0) || Input.GetKeyDown(KeyCode.E))
 		{
 			rayToInteract=Camera.main.ScreenPointToRay(new Vector3(Screen.width/2, Screen.height/2, 0));
 			
 			if(Physics.Raycast(rayToInteract, out hitInteract, rangeInteract))
 			{
 				if(hitInteract.collider.tag == "menuplay")
-				{
-					
+				{					
 					hitInteract.collider.GetComponent<ObjectiveObjectBehaviour>().comeca_jogo();
 					
 					//hitInteract.collider.GetComponent<ObjectiveObjectBehaviour>().Interact();

@@ -92,15 +92,81 @@ public class SlenderBehaviour : MonoBehaviour {
 		}
 		
 		*/
+		/*
+		if(distancePlayer_arduino < 50)
+		{
+			
+			arduino.sendLightningStrike();
+			
+		}  */
+		
+		/*
+		
+		switch(distancePlayer)
+		{
+		case 100:
+			arduino.sendFanControl(100);
+			break;
+		case 75:
+			arduino.sendFanControl(125);
+			break;
+			
+			case 50:
+			arduino.sendFanControl(150);
+			break;
+			
+			case 40:
+			arduino.sendFanControl(175);
+			break;
+			
+			case 30:
+			arduino.sendFanControl(155);
+			break;
+			
+			case 20:
+			arduino.sendFanControl(155);
+			break;
+			
+			case 10:
+			arduino.sendFanControl(155);
+			break;
+		}
+		
+		*/
+		if(distancePlayer_arduino >= 100)
+			arduino.sendFanControl(5);
+		
+		else if(distancePlayer_arduino >= 75 && distancePlayer_arduino < 100)
+			arduino.sendFanControl(100);
+		
+		
+		else if (distancePlayer_arduino >= 50 && distancePlayer_arduino <75)
+arduino.sendFanControl(125);	
+		
+		else if (distancePlayer_arduino >= 30 && distancePlayer_arduino <50)
+arduino.sendFanControl(155);	
+		
+		else if (distancePlayer_arduino >= 20 && distancePlayer_arduino <30)
+arduino.sendFanControl(175);	
+		
+		else if (distancePlayer_arduino >= 10 && distancePlayer_arduino <20)
+arduino.sendFanControl(200);	
+		
+		else if(distancePlayer_arduino < 10)
+arduino.sendFanControl(255);		
+		
+		
 		if(distancePlayer < distanceToAfect && meshSlender.isVisible)
 		{
 			//dano
 			player.scare += currentScareFactory/distancePlayer;
+			if(audio.isPlaying == false)
+				audio.Play();
 		}
-		if(distancePlayer_arduino < 20)
-		{
-			arduino.sendLightningStrike();			
-		}   
+		
+		
+		
+		 
 		
 		
 		

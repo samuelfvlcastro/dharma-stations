@@ -649,6 +649,134 @@ ModelImporter:
     4300250: pCube368
     4300252: pCube369
     4300254: pCube370
+    6400000: pCube234
+    6400002: pCube235
+    6400004: pCube236
+    6400006: pCube237
+    6400008: pCube238
+    6400010: pCube239
+    6400012: pCube244
+    6400014: pCube245
+    6400016: pCube246
+    6400018: pCube248
+    6400020: pCube249
+    6400022: pCube250
+    6400024: pCube251
+    6400026: pCube252
+    6400028: pCube253
+    6400030: pCube254
+    6400032: pCube255
+    6400034: pCube257
+    6400036: pCube258
+    6400038: pCube259
+    6400040: pCube260
+    6400042: pCube261
+    6400044: pCube262
+    6400046: pCube263
+    6400048: pCube264
+    6400050: pCube265
+    6400052: pCube266
+    6400054: pCube267
+    6400056: pCube268
+    6400058: pCube269
+    6400060: pCube270
+    6400062: pCube271
+    6400064: pCube272
+    6400066: pCube273
+    6400068: pCube274
+    6400070: pCube275
+    6400072: pCube276
+    6400074: pCube277
+    6400076: pCube278
+    6400078: pCube279
+    6400080: pCube280
+    6400082: pCube281
+    6400084: pCube282
+    6400086: pCube283
+    6400088: pCube284
+    6400090: pCube285
+    6400092: pCube286
+    6400094: pCube287
+    6400096: pCube288
+    6400098: pCube289
+    6400100: pCube290
+    6400102: pCube291
+    6400104: pCube292
+    6400106: pCube293
+    6400108: pCube294
+    6400110: pCube295
+    6400112: pCube296
+    6400114: pCube297
+    6400116: pCube298
+    6400118: pCube299
+    6400120: pCube300
+    6400122: pCube301
+    6400124: pCube302
+    6400126: pCube303
+    6400128: pCube304
+    6400130: pCube305
+    6400132: pCube306
+    6400134: pCube307
+    6400136: pCube308
+    6400138: pCube309
+    6400140: pCube310
+    6400142: pCube311
+    6400144: pCube312
+    6400146: pCube313
+    6400148: pCube314
+    6400150: pCube318
+    6400152: pCube319
+    6400154: pCube320
+    6400156: pCube321
+    6400158: pCube322
+    6400160: pCube323
+    6400162: pCube324
+    6400164: pCube325
+    6400166: pCube326
+    6400168: pCube327
+    6400170: pCube328
+    6400172: pCube329
+    6400174: pCube330
+    6400176: pCube331
+    6400178: pCube332
+    6400180: pCube333
+    6400182: pCube334
+    6400184: pCube335
+    6400186: pCube336
+    6400188: pCube337
+    6400190: pCube338
+    6400192: pCube339
+    6400194: pCube340
+    6400196: pCube341
+    6400198: pCube342
+    6400200: pCube343
+    6400202: pCube344
+    6400204: pCube345
+    6400206: pCube346
+    6400208: pCube347
+    6400210: pCube348
+    6400212: pCube349
+    6400214: pCube350
+    6400216: pCube351
+    6400218: pCube352
+    6400220: pCube353
+    6400222: pCube354
+    6400224: pCube355
+    6400226: pCube356
+    6400228: pCube357
+    6400230: pCube358
+    6400232: pCube359
+    6400234: pCube360
+    6400236: pCube361
+    6400238: pCube362
+    6400240: pCube363
+    6400242: pCube364
+    6400244: pCube365
+    6400246: pCube366
+    6400248: pCube367
+    6400250: pCube368
+    6400252: pCube369
+    6400254: pCube370
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -668,7 +796,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

@@ -97,6 +97,24 @@ ModelImporter:
     4300030: pCylinder33
     4300032: pCylinder34
     4300034: pCylinder35
+    6400000: pCone1
+    6400002: pCone2
+    6400004: pCube397
+    6400006: pCube398
+    6400008: pCube399
+    6400010: pCube400
+    6400012: pCube401
+    6400014: pCube402
+    6400016: pCylinder28
+    6400018: pCylinder29
+    6400020: pCylinder30
+    6400022: pCylinder31
+    6400024: pCylinder32
+    6400026: pCylinder33
+    6400028: pCylinder34
+    6400030: pCylinder35
+    6400032: pTorus1
+    6400034: pTorus2
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -116,7 +134,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

@@ -26,6 +26,10 @@ public class GameController : MonoBehaviour {
 	{
 		return totalObjectives;
 	}
+	public int GetTotalObjectiveOk()
+	{
+		return totalObjectivesOk;
+	}
 	
 	
 }

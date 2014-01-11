@@ -58,21 +58,21 @@ public class ArduinoConnection : MonoBehaviour {
     	sp.WriteLine("1");
     }
 
-    public static void sendGreenHealth(){
+    public  void sendGreenHealth(){
     	sp.WriteLine("2");
     }
 	
-    public static void sendOrangeHealth(){
+    public  void sendOrangeHealth(){
     	sp.WriteLine("3");
     }
 	
-    public static void sendRedHealth(){
+    public  void sendRedHealth(){
     	sp.WriteLine("4");
     }
 	
 		
-    public void sendFanControl(){
-    	sp.WriteLine("255");
+    public void sendFanControl(int power){
+    	sp.WriteLine(power.ToString());
 		
     }
 }
